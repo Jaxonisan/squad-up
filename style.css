@@ -1,0 +1,58 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #000a31;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffd700;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ffd700;
+  color: #000a31;
+}
+
+/* Add a color to the active/current link */
